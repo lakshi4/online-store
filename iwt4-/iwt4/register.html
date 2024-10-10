@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html land="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title> register From</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewportport" content="width=device-width,initial-scale=1.0">
+            
+        <!--Boxicons CSS-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head> 
+    <body>
+        <div id="naviBar">
+            <table border="0">
+                <tbody><tr>
+                    <th><h2>Pixelmarket</h2></th>
+                    <th><a href="index.html">Home</a></th>
+                    <th><a href="pages/allApps.html">Explore</a></th>
+                    <th><a href="pages/contactUs.html">Contact Us</a></th>
+                    <th><a href="index.html">Settings</a></th>
+                    <th id="login"><a href="index.html">Login | Register</a></th>  
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="appBanner">
+            <div class="appBannerChild"
+            <h1>Pixelmarket Online App Store</h1>
+            <h2>
+                <a href="" class="typewrite" data-period="2000" data-type="[ &quot;Download Photo editors&quot;, &quot;Download Games&quot;, &quot;Download Notepads&quot;, &quot;Download Music Apps&quot; ]">Welcome to our online app store, where you can discover a world of
+                incredible applications for all your devices. Our website provides a seamless platform to explore and
+                download a wide range of apps that cater to your various needs and interests.
+                   <span class="wrap"></span>
+                </a>
+            </h2>   
+        </div>
+        <div class="media-options">
+            <a href="#" class="field search">
+                <i class='bx bx-search-alt-2'></i>
+                <span>Search App</span>
+            </a>
+        </div>
+        <div class="header-text mb-4">
+            <h1 style=text-align:center>WELCOME</h1>
+            <h4 style=text-align:center>New Developer?    Create an Account</h4>
+        </div>
+        <section class="container forms">
+            <div class="form register">
+                <div class="from-content">
+                    <header>Create An Account</header>
+                
+                    <form action="register.php" method="POST">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span classs="details">Frist Name</span><br>
+                                <input type="text" placeholder="Frist Name"  name="firstname" required><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Last Name</span><br>
+                                <input type="text" placeholder="Last Name" name="lastname" required><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Developer ID</span><br>
+                                <input type="text" placeholder="DeveloperID" name="developerid" required><br>
+                            </div>
+                            <div class="gender-details">
+                                <span class="gender-title">Gender</span><br>
+                                <input type="radio" id="male" name="gender" value="Male" required>
+                                <label for="male" class="raduio-inline">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="Female" required>
+                                <label for="female" class="radio-inline">Female</label><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Email</span><br>
+                                <input type="text" placeholder="Email" name="email" required><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Phone Number</span><br>
+                                <input type="text" placeholder="Phone Number" name="phonenumber" required><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Developer Position</span><br>
+                                <input type="text" placeholder="Developer Position" name="dposition" required><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Password</span><br>
+                                <input type="text" placeholder="Password" name="password" required><br>
+                            </div>
+                            <div class="input-box">
+                                <span classs="details">Confirm Password</span><br>
+                                <input type="text" placeholder="Confirm Password" name="confirmpassword" required><br>
+                            </div>
+                            <div class="input box">
+                                <span classs="details">Add Image</span><br>
+                                <input type="file" name="image" accept="image/jpg, image/jpeg,image/png" ><br>
+                            </div>
+                        </div>    
+                        <div class="field button-field">
+                            <input type="submit" name="submit" value="Create Account">
+                        </div>
+                    </from> 
+                </div>  
+            </div>        
+        </section>
+        <footer>
+            <table>
+                <tbody>
+                    <tr>
+                        <th><h3>Pixelmarket</h3></th> 
+                        <th><h3>Find Us On</h3></th> 
+                    </tr>    
+                    <tr height="px | %">
+                        <th><a class="footertext" href="pages/contactUs.html">Contact Us</a></th>
+                    </tr>
+                    <tr>
+                        <th><a class="footertext" href="pages/contactUs.html">Manage your account</a></th>
+                    </tr>
+                    <tr>
+                        <th><a class="footertext" href="pages/contactUs.html">Newsroom</a></th>
+                    </tr>
+                    <tr>
+                        <th><a class="footertext" href="pages/contactUs.html">Report a bug</a></th>
+                    </tr>
+                    <tr>
+                        <th><a class="footertext" href="pages/contactUs.html">Privacy</a></th>
+                    </tr>
+                    <tr>
+                        <th><a class="footertext" href="pages/contactUs.html">Payment Security</a></th>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </footer>    
+    </body>
+</html>    
